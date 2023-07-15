@@ -11,9 +11,9 @@ struct MacBook {
     let maximumBattery: Watt = 100
     
     func chargeBattery(charger: Chargeable) {
-        let chargeSpeed = charger.convert(chargeableWattPerHour: maximumWattPerHour)
-        let needToChargeBattery = maximumBattery - currentBattery
+        let chargeWatt = Double(charger.convert(chargeableWattPerHour: maximumWattPerHour))
+        let needToChargeBattery = Double(maximumBattery - currentBattery)
         
-        print("충전 시간 : \(needToChargeBattery / chargeSpeed)")
+        print("충전 시간 : \(needToChargeBattery / chargeWatt)")
     }
 }
