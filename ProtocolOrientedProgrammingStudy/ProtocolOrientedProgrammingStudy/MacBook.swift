@@ -5,7 +5,7 @@
 //  Created by 조호준 on 2023/07/15.
 //
 
-struct MacBook {
+struct MacBook: Portable {
     let maximumWattPerHour: WattPerHour
     let currentBattery: Watt
     let maximumBattery: Watt = 100

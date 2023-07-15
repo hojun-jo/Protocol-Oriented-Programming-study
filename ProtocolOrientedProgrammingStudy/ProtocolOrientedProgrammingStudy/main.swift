@@ -6,5 +6,10 @@
 //
 
 let macBook = MacBook(maximumWattPerHour: 30, currentBattery: 50)
+let iPadCharger = Charger.iPad
+macBook.chargeBattery(charger: iPadCharger)
 
-macBook.chargeBattery(charger: Charger.iPad)
+var bag = Bag()
+bag.put(item: macBook)
+bag.put(item: iPadCharger)
+bag.getItems()

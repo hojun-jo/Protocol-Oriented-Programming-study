@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		281706F52A62247700A14E41 /* Charger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281706F42A62247700A14E41 /* Charger.swift */; };
+		281706F72A62399500A14E41 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281706F62A62399500A14E41 /* Bag.swift */; };
 		283025132A621B01004B6465 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283025122A621B01004B6465 /* main.swift */; };
 		2830251A2A621BA0004B6465 /* Chargeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283025192A621B9F004B6465 /* Chargeable.swift */; };
 		2830251C2A6222A8004B6465 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2830251B2A6222A8004B6465 /* MacBook.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		281706F42A62247700A14E41 /* Charger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
+		281706F62A62399500A14E41 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		2830250F2A621B01004B6465 /* ProtocolOrientedProgrammingStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProtocolOrientedProgrammingStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		283025122A621B01004B6465 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		283025192A621B9F004B6465 /* Chargeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargeable.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				283025192A621B9F004B6465 /* Chargeable.swift */,
 				281706F42A62247700A14E41 /* Charger.swift */,
 				2830251B2A6222A8004B6465 /* MacBook.swift */,
+				281706F62A62399500A14E41 /* Bag.swift */,
 			);
 			path = ProtocolOrientedProgrammingStudy;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281706F72A62399500A14E41 /* Bag.swift in Sources */,
 				283025132A621B01004B6465 /* main.swift in Sources */,
 				281706F52A62247700A14E41 /* Charger.swift in Sources */,
 				2830251C2A6222A8004B6465 /* MacBook.swift in Sources */,

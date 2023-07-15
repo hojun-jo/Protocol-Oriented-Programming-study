@@ -5,7 +5,7 @@
 //  Created by 조호준 on 2023/07/15.
 //
 
-struct Charger: Chargeable {
+struct Charger: Chargeable, Portable {
     var maximumWattPerHour: WattPerHour
     
     static let appleWatch = Charger(maximumWattPerHour: 5)
