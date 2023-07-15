@@ -9,7 +9,17 @@ typealias WattPerHour = Int
 typealias Watt = Int
 
 protocol Chargeable {
-    var maximumWattPerHour: WattPerHour { get set }
+    var maximumWattPerHour: WattPerHour { get }
     
     func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour
+}
+
+extension Chargeable {
+    func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour {
+        if maximumWattPerHour > chargeableWattPerHour {
+            return chargeableWattPerHour
+        }
+        
+        return maximumWattPerHour
+    }
 }
